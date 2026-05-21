@@ -1,0 +1,26 @@
+folder packages {
+  folder cli {
+    folder src {
+      folder components {
+        folder commands-menu {
+          file commands.tsx
+          file filter-commands.ts
+          file types.ts
+        }
+        file border.tsx
+        file header.tsx
+        file input-bar.tsx
+        file status-bar.tsx
+      }
+      file index.tsx
+    }
+    file package.json
+    file README.md
+    file tsconfig.json
+  }
+}
+file .gitignore
+file bun.lock
+file package.json
+file README.md
+file tsconfig.base.json
